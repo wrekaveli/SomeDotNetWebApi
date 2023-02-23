@@ -1,0 +1,20 @@
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Some name</th>
+      <th>Some number</th>
+      <th>Some date</th>
+      <th>Some enum</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let element of something">
+      <td>{{element.id}}</td>
+      <td>{{element.someName}}</td>
+      <td>{{element.someNumber}}</td>
+      <td>{{element.someDate}}</td>
+      <td>{{element.someEnum}}</td>
+    </tr>
+  </tbody>
+</table>
